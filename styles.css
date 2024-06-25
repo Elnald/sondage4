@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%; /* S'assure que le body prend au moins la hauteur de l'écran */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d45d5d;
+}
+
+header {
+  background-color: #d45d5d;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly; /* Distribue l'espace uniformément */
+  min-height: calc(100% - 60px); /* Exclut la hauteur du header et du footer */
+}
+
+.candidate {
+  border: 3px solid #000000;
+  padding: 20px;
+  width: 40%; /* Chaque candidat prend 40% de la largeur de l'écran */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 15px;
+}
+
+#anass {
+  background-color: #1a7c52; /* Bleu doux */
+}
+
+#gautier {
+  background-color: #3252ab; /* Vert doux */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #555;
+}
