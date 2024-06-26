@@ -1,5 +1,5 @@
 function vote(candidate) {
-    fetch('https://abcd1234.ngrok.io/vote', { // Remplace par ton URL publique ngrok
+    fetch('https://git.heroku.com/murmuring-citadel-94432.git', { // Remplace par ton URL publique ngrok
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
