@@ -1,5 +1,5 @@
 function vote(candidate) {
-    fetch('https://nextjs-fm4tgmynv-elnalds-projects.vercel.app/api/vote', { // Remplace par ton URL publique ngrok
+    fetch('https://nextjs-theta-lime-54.vercel.app/api/vote', { // Remplace par ton URL publique ngrok
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
